@@ -1,0 +1,34 @@
+A51 MACRO ASSEMBLER  PROGRAM2                                                             09/28/2024 19:10:20 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\program2.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE program2.asm SET(SMALL) DEBUG PRINT(.\Listings\program2.lst) OBJECT(.\O
+                      bjects\program2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+                       2     
+0000                   3     org 0000h
+0000 900007            4     MOV DPTR,#0007H;
+0003 7415              5     MOV A,#15H;
+0005 F0                6     MOVX @DPTR,A;
+                       7     
+0006 E0                8     MOVX A,@DPTR;
+0007 F507              9     MOV 7H,A;
+                      10     END
+A51 MACRO ASSEMBLER  PROGRAM2                                                             09/28/2024 19:10:20 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

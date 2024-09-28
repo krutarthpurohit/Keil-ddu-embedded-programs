@@ -1,0 +1,3 @@
+".\Objects\program2.obj" 
+TO ".\Objects\program2" 
+PRINT(".\Listings\program2.m51")

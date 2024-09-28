@@ -1,0 +1,39 @@
+A51 MACRO ASSEMBLER  PROGRAM1                                                             09/28/2024 19:08:18 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\program1.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE program1.asm SET(SMALL) DEBUG PRINT(.\Listings\program1.lst) OBJECT(.\O
+                      bjects\program1.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+                       2     
+                       3     
+                       4     
+                       5     
+                       6     
+                       7     
+0000 901000            8     MOV DPTR,#1000H;
+0003 7410              9     MOV A,#10H;
+0005 F0               10     MOVX @DPTR,A;
+                      11     
+                      12     
+0006 E0               13     MOVX A,@DPTR;  //OVERWRITE X:0x1000=AF ON THIS STEP WHILE DEBUGGING 
+                      14     
+                      15     END
+A51 MACRO ASSEMBLER  PROGRAM1                                                             09/28/2024 19:08:18 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
